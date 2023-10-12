@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* class para quitar subrayado de los anchor */
+.--nodecoration a{
+    text-decoration: none;
+    color: black;
+}
+/* class para hacer inline-block */
+.--inlineblock{
+    display: inline-block;
+}
+/* class para hacer inline */
+.--inline{
+    display: inline;
+}
+/* clss para centrar vertical */
+.--verticalalign-middle{
+    vertical-align: middle;
+}
+/* class width 100% */
+.w100{
+    width: 100%;
+}
+/* Title + navmenu */
+#navmenu{
+    margin-left: 5vh;
+    width: 90%;
+}
+#navmenu a{
+    margin: 1vh;
+}
+
+#logo__img{
+    width: 5vh;
+}
+
+#title__container{
+    text-align: center;
+}
+
+.title__container__h{
+    margin-bottom: 2vh;
+}
+
+/* solo banner */
+#banner{
+    height: 30vh;
+    background-image: url(../img/imagebanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -13vh;
+    margin: 0vh 2vh 1vh;
+}
+
+/* section main-content */
+
+.main-content{
+    text-align: center;
+    width: 98%;
+    margin-left: 1%;
+}
+
+.main-content__text{
+    width: 30%;
+    margin-right: 10vh;
+}
+
+.main-content__text p{
+    font-size: 1.2rem;
+}
+
+.main-content__img{
+    margin-top: 1vh;
+    width: 15%;
+}
+
+.main-content__img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    margin-top: 1vh;
+}
+
+#footer__text{
+    text-align: center;
+    padding-top: 3vh;
+}
+#createdby{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* colores al header, main y footer */
+
+body{
+    background-color: #D2B48C;
+}
+
+#header__container, #footer__text{
+    background-color:#00A6ED ;
+}
+
+footer{
+    background-color: #00A6ED;
+    height: 8.3vh;
+}
+.main-content{
+    background-color: #FFB6C1;
+}
+
+/* hover al navbar */
+
+#navmenu a:hover{
+    border-radius: .5vh;
+    padding: 1vh;
+    background-color: tomato;
+    font-weight: bold;
+}
+
+.active{
+    background-color: #FFD700 ;
+    border-radius: .5vh;
+    padding: 1vh;
+    font-weight: bold;
+}
+
+/* comunication */
+.main-content a{
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+
+.space__text{
+    margin-bottom: 2vh;
+}
+
+
+
