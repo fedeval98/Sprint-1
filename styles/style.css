@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Declaracion de variables de colores */
+:root{
+    --primary-color:#9CF6F6;
+    --secondary-color:#FF7477;
+}
+
 /* class para quitar subrayado de los anchor */
 .--nodecoration a{
     text-decoration: none;
@@ -110,23 +116,23 @@ footer{
 /* colores al header, main y footer */
 
 body{
-    background-color: #9CF6F6;
+    background-color: var(--primary-color);
 }
 
 #header__container, #footer__text{
-    background-color:#FF7477 ;
+    background-color: var(--secondary-color) ;
 }
 
 footer{
-    background-color: #FF7477;
+    background-color:var(--secondary-color);
     height: 8.3vh;
 }
 .main-content{
-    background-color: #9CF6F6;
+    background-color: var(--primary-color);
 }
 
 #title__container{
-    background-color: #9CF6F6;
+    background-color: var(--primary-color);
 }
 
 /* hover al navbar */
@@ -134,7 +140,7 @@ footer{
 #navmenu a:hover{
     border-radius: .5vh;
     padding: 1vh;
-    background-color: tomato;
+    background-color: whitesmoke;
     font-weight: bold;
 }
 
