@@ -83,6 +83,17 @@
     height: 100%;
 }
 
+.main-content__img2{
+    margin-top: 1vh;
+    width: 30%;
+}
+
+.main-content__img2 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
 footer{
     margin-top: 1vh;
 }
@@ -99,19 +110,23 @@ footer{
 /* colores al header, main y footer */
 
 body{
-    background-color: #D2B48C;
+    background-color: #9CF6F6;
 }
 
 #header__container, #footer__text{
-    background-color:#00A6ED ;
+    background-color:#FF7477 ;
 }
 
 footer{
-    background-color: #00A6ED;
+    background-color: #FF7477;
     height: 8.3vh;
 }
 .main-content{
-    background-color: #FFB6C1;
+    background-color: #9CF6F6;
+}
+
+#title__container{
+    background-color: #9CF6F6;
 }
 
 /* hover al navbar */
