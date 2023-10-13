@@ -53,7 +53,7 @@
 
 /* solo banner */
 #banner{
-    height: 30vh;
+    height: 29vh;
     background-image: url(../img/imagebanner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -155,7 +155,26 @@ footer{
 .main-content a{
     font-weight: bold;
     font-size: 1.5rem;
+    border:1px solid black;
+    background-color: #B5D6D6;
+    padding: 0.4vh;
+    border-radius: 2vh;
+}
 
+.main-content__email{
+    width: 30%;
+    margin-right: 10vh;
+}
+
+.main-content__comunication{
+    width: 15%;
+}
+
+.main-content a:hover{
+    border-radius: 2vh;
+    padding: 0.6vh;
+    background-color: yellow;
+    font-weight: bold;
 }
 
 .space__text{
