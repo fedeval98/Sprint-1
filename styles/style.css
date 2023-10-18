@@ -11,20 +11,20 @@
 }
 
 /* Herramientas */
-.--nodecoration a{
+.__nodecoration a{
     text-decoration: none;
     color: black;
 }
-.--flex{
+.__flex{
     display: flex;
 }
-.--verticalalign-middle{
+.__verticalalign-middle{
     vertical-align: middle;
 }
-.--decoration{
+.__decoration{
     text-decoration: underline;
 }
-.w100{
+.__w100{
     width: 100%;
 }
 
