@@ -29,7 +29,7 @@
 }
 
 /* Title + navmenu */
-#navmenu {
+#navmenu ul {
     gap: 1vw;
     align-items: center;
 }
@@ -211,4 +211,9 @@ table,tr,td,th {
 #tablepage{
     margin-top: 16vh;
     margin-bottom: 23.7vh;
+}
+
+/* Estilo a la lista */
+ul{
+    list-style-type: none;
 }
