@@ -203,15 +203,20 @@ footer{
 /* TABLE PAGE */
 table,tr,td,th {
     border: solid 3px black;
-    width: 60%;
     text-align: center;
     border-collapse: collapse;
-    font-size: 3rem;
-    margin: auto;
+    font-size: 2rem;
+    margin: 0 auto;
+}
+table{
+    width: 80%;
 }
 #tablepage{
     margin-top: 22vh;
     margin-bottom: 22.7vh;
+}
+caption{
+    margin: 2vh 0;
 }
 
 /* Estilo a la lista review */
