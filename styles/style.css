@@ -199,3 +199,16 @@ footer{
     padding: 1vh;
     font-weight: bold;
 }
+/* TABLE PAGE */
+table,tr,td,th {
+    border: solid 3px black;
+    width: 60%;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 3rem;
+    margin: auto;
+}
+#tablepage{
+    margin-top: 16vh;
+    margin-bottom: 23.7vh;
+}
