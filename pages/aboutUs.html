@@ -9,52 +9,40 @@
 </head>
 <body>
     <header>
-        <div id="header__container" class="--inlineblock w100">
-            <nav id="navmenu" class="--verticalalign-middle --nodecoration --inlineblock">
+        <div id="header__container" class="--flex --w100 --verticalalign-middle --nodecoration">
+            <nav id="navmenu" class="--flex">
                 <a href="../index.html">HOME</a>
-                <a class="active" href="#">ABOUT US</a>
-                <a href="../pages/contact.html">CONTACT</a>
+                <a class="active" href="./aboutUs.html">ABOUT US</a>
+                <a href="./contact.html">CONTACT</a>
             </nav>
-            <div id="logo__container" class="--inlineblock --verticalalign-middle">
-                <img id="logo__img" src="../img/logo.png" alt="brand-logo">                
+            <div id="logo__container">
+                <img id="logo" src="../img/logo.png" alt="brand-logo">                
             </div>
         </div>
-        <div id="title__container" class="title__container__h">
+        <div id="title__container" class="--flex">
             <h1>ABOUT US</h1>
             <h2 class="--decoration">photographing moments</h2>
         </div>
+        <div id="banner"></div> <!--banner integrado al div-->
     </header>
-    <main>
-        <div class="main-content --inlineblock w100">
-            <div class="main-content__img --inlineblock --verticalalign-middle">
-                <img src="../img/image2.jpg" alt="image2">
-            </div>
-            <div class="main-content__text --inlineblock --verticalalign-middle">
-                <p>Our company was founded in 1990 by a group of friends passionate about photography.</p>
-            </div>
+    <main class="--flex about__container"> 
+        <div class="aboutcontent__img --flex">
+            <img src="../img/image2.jpg" alt="image2">
+            <p>Our company was founded in 1990 by a group of friends passionate about photography.</p>
         </div>
-        <div class="main-content --inlineblock w100">
-            <div class="main-content__img --inlineblock --verticalalign-middle">
-                <img src="../img/image3.jpg" alt="image3">
-            </div>
-            <div class="main-content__text --inlineblock --verticalalign-middle">
-                <p>We edit the photos to give you a better visualization if you wish.</p>
-            </div>
-        </div>
-        <div class="main-content --inlineblock w100">
-            <div class="main-content__img --inlineblock --verticalalign-middle">
-                <img src="../img/image4.jpg" alt="image4">
-            </div>
-            <div class="main-content__text --inlineblock --verticalalign-middle">
-                <p>We have photography services for weddings, birthdays,
-                    exteriors, studio photos..</p>
-            </div>
+        <div class="aboutcontent__img --flex">
+            <img src="../img/image3.jpg" alt="image3">
+            <p>We edit the photos to give you a better visualization if you wish.</p>
+        </div> 
+        <div class="aboutcontent__img --flex">
+            <img src="../img/image4.jpg" alt="image4">
+            <p>We have photography services for weddings, birthdays, exteriors, studio photos..</p>
         </div>
     </main>
     <footer>
-        <div id="footer__container" class="w100">
-            <p id="footer__text">
-                <span id="createdby">Created by:</span> Federico Val
+        <div id="footer__container" class="--flex --w100">
+            <p>
+                <span>Created by:</span> Federico Val
             </p>
         </div>
     </footer>
