@@ -208,6 +208,7 @@ table,tr,td,th {
 }
 table{
     width: 80%;
+    background-color: #ffa0a2;
 }
 #tablepage{
     margin-top: 22vh;
