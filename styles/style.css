@@ -255,9 +255,6 @@ caption{
     font-size: 2rem;
     margin: 2.5vh;
 }
-
-.scale-up-center{animation:scale-up-center 0.4s; } @keyframes scale-up-center{ 0%{transform:scale(.5)} 100%{transform:scale(1)} }
-
 /* Inicio de Formulario */
 #main-form{
     width: 80%;
@@ -300,3 +297,9 @@ textarea{
 input[type="text"]{
     width: 100%;
 }
+
+/* animaciones */
+
+.scale-up-horizontal-right{animation:scale-up-horizontal-right 0.4s } @keyframes scale-up-horizontal-right{0%{transform:scaleX(.4);transform-origin:right center}100%{transform:scaleX(1);transform-origin:right center}}
+.scale-up-center{animation:scale-up-center 0.4s; } @keyframes scale-up-center{ 0%{transform:scale(.5)} 100%{transform:scale(1)} }
+.scale-up-horizontal-left{animation:scale-up-horizontal-left 0.4s } @keyframes scale-up-horizontal-left{0%{transform:scaleX(.4);transform-origin:left center}100%{transform:scaleX(1);transform-origin:left center}}
