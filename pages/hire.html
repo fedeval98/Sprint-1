@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <title>Mindy Photo | Hire </title>
+</head>
+<body>
+    <header>
+        <div id="header__container" class="__flex __w100 __verticalalign-middle __nodecoration">
+            <nav id="navmenu" class="__flex">
+                <ul class="__flex">
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="./aboutUs.html">ABOUT US</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                    <li><a href="./services.html">SERVICES</a></li>
+                    <li><a href="./rating.html">RATING</a></li>
+                    <li><a class="active" href="#">HIRE</a></li>
+                </ul>
+            </nav>
+            <div id="logo__container">
+                <img id="logo" src="../img/logo.png" alt="brand-logo">
+            </div>
+        </div>
+        <div id="title__container" class="__flex">
+            <h1>HIRE</h1>
+            <h2 class="__decoration">Fill out the form so we can attend your event</h2>
+        </div>
+    </header>
+    <main id="main-form" class="__flex">
+        <Section>
+            <h2>Our location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423284.6897532054!2d-118.41173249999999!3d34.020479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20%C3%81ngeles%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1697739767839!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </Section>
+        <div>
+            <form class="__flex" action="../showdata/show_data.html" method="get" target="_blank">
+                <label for="name">First name and last name
+                    <input name="name" type="text" placeholder="Federico Val" maxlength="50">
+                </label>
+                <Label for="phone">Phone Number
+                    <select name="phone" id="phone">
+                        <option value="" disabled selected>Country</option>
+                        <option value="Argentina (+54)">ARG +54</option>
+                        <option value="United States (+1)">USA +1</option>
+                        <option value="España (+34)">ESP +34</option>
+                        <option value="Uruguay (+598)">URU +598</option>
+                    </select>
+                    <input type="tel" name="phone" id="phone" placeholder="1130212545" maxlength="10">
+                </Label>
+                <label for="services">Choose Service
+                    <select name="service" id="services">
+                        <option value="" disabled selected>Select your service</option>
+                        <option value="Wedding">Wedding</option>
+                        <option value="Birthday">Birthday</option>
+                        <option value="Kids Birthday">Kids Birthday</option>
+                        <option value="Photo Studio / Outside">Photo Studio / Outside</option>
+                    </select>
+                </label>
+                <label for="date">Choose Date
+                    <input type="date" name="date" id="date">
+                </label>
+                <label for="payment" required>Payment Options
+                    <label class="radio-left __flex" for="cash">
+                        <input type="radio" name="payment" id="cash" value="cash"> Cash
+                    </label>
+                    <label class="radio-left __flex" for="credit-card">
+                        <input type="radio" name="payment" id="credit-card" value="credit-card">Credit Card
+                    </label>
+                    <label class="radio-left __flex" for="debit-card">
+                        <input type="radio" name="payment" id="debit-card" value="debit-card">Debit Card
+                    </label>
+                </label>
+                <label for="">Message (Location and time)</label>
+                <textarea name="" id="" cols="30" rows="10" maxlength="255"></textarea>
+                <label for="tos">
+                    <input type="checkbox" name="Terms-of-service" id="tos" required> I accept terms and conditions...
+                    <input type="submit" value="Send">
+                </label>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div id="footer__container" class="__flex __w100">
+            <p>
+                <span>Created by:</span> Federico Val
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

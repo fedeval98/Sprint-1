@@ -229,6 +229,9 @@ caption{
 .profile__container{
     align-items: center;
     justify-content: center;
+    border: dashed 5px black;
+    background-color: #ffa0a2;
+    border-radius: 2vh;
 }
 .profile_img{
     width: 25%;
@@ -253,4 +256,49 @@ caption{
 .main_rating p{
     font-size: 2rem;
     margin: 2.5vh;
+}
+
+.scale-up-center{animation:scale-up-center 0.4s; } @keyframes scale-up-center{ 0%{transform:scale(.5)} 100%{transform:scale(1)} }
+
+/* Inicio de Formulario */
+#main-form{
+    width: 80%;
+    justify-content: space-around;
+    flex-grow: 1;
+    align-items: center;
+    margin: 3vh 0vw;
+    margin-left: 8vw;
+}
+#main-form section{
+    text-align: center;
+}
+#main-form h2{
+    margin-bottom: 2vh;
+}
+
+form{
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+form input, select, textarea{
+    font-size: 1.2rem;
+    margin: 1vh 0vh;
+}
+
+.radio-left{
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: start;
+    gap: .5vw;
+}
+
+.radio-left input[type="radio"] {
+    order: 1;
+}
+textarea{
+    resize: none;
+}
+
+input[type="text"]{
+    width: 100%;
 }
