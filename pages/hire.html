@@ -48,7 +48,7 @@
                         <option value="Uruguay (+598)">URU +598</option>
                     </select>
                 </Label>
-                <input type="tel" name="number" id="phoneinput" placeholder="1130212545" maxlength="10" required>
+                <input type="tel" name="number" pattern="[0-9]*" id="phoneinput" placeholder="1130212545" maxlength="10" required>
                 <label for="services">Choose Service
                     <select name="service" id="services" required>
                         <option value="" disabled selected>Select your service</option>
@@ -72,7 +72,7 @@
                     <input type="radio" name="payment" id="debit-card" value="debit-card">Debit Card
                 </label>
                 <label for="date">Message (Location and time)</label>
-                <textarea name="textarea" id="text-area" cols="30" rows="10" maxlength="255"></textarea>
+                <textarea name="information" id="text-area" cols="30" rows="10" maxlength="255"></textarea>
                 <label for="tos">
                     <input type="checkbox" name="Terms-of-service" id="tos" required> I accept terms and conditions...
                 </label>
