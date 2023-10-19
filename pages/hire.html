@@ -37,20 +37,20 @@
         <div>
             <form class="__flex scale-up-horizontal-right" action="../showdata/show_data.html" method="get" target="_blank">
                 <label for="name">First name and last name
-                    <input name="name" type="text" placeholder="Federico Val" maxlength="50">
+                    <input id="name" name="name" type="text" placeholder="Federico Val" maxlength="50" required>
                 </label>
                 <Label for="phone">Phone Number
-                    <select name="phone" id="phone">
+                    <select name="number" id="phone">
                         <option value="" disabled selected>Country</option>
                         <option value="Argentina (+54)">ARG +54</option>
                         <option value="United States (+1)">USA +1</option>
                         <option value="España (+34)">ESP +34</option>
                         <option value="Uruguay (+598)">URU +598</option>
                     </select>
-                    <input type="tel" name="phone" id="phone" placeholder="1130212545" maxlength="10">
                 </Label>
+                <input type="tel" name="number" id="phoneinput" placeholder="1130212545" maxlength="10" required>
                 <label for="services">Choose Service
-                    <select name="service" id="services">
+                    <select name="service" id="services" required>
                         <option value="" disabled selected>Select your service</option>
                         <option value="Wedding">Wedding</option>
                         <option value="Birthday">Birthday</option>
@@ -59,25 +59,24 @@
                     </select>
                 </label>
                 <label for="date">Choose Date
-                    <input type="date" name="date" id="date">
+                    <input type="date" name="date" id="date" required>
                 </label>
-                <label for="payment" required>Payment Options
-                    <label class="radio-left __flex" for="cash">
-                        <input type="radio" name="payment" id="cash" value="cash"> Cash
-                    </label>
-                    <label class="radio-left __flex" for="credit-card">
-                        <input type="radio" name="payment" id="credit-card" value="credit-card">Credit Card
-                    </label>
-                    <label class="radio-left __flex" for="debit-card">
-                        <input type="radio" name="payment" id="debit-card" value="debit-card">Debit Card
-                    </label>
+                <label>Payment Options</label>
+                <label class="radio-left __flex" for="cash">
+                    <input type="radio" name="payment" id="cash" value="cash"> Cash
                 </label>
-                <label for="">Message (Location and time)</label>
-                <textarea name="" id="" cols="30" rows="10" maxlength="255"></textarea>
+                <label class="radio-left __flex" for="credit-card">
+                    <input type="radio" name="payment" id="credit-card" value="credit-card">Credit Card
+                </label>
+                <label class="radio-left __flex" for="debit-card">
+                    <input type="radio" name="payment" id="debit-card" value="debit-card">Debit Card
+                </label>
+                <label for="date">Message (Location and time)</label>
+                <textarea name="textarea" id="text-area" cols="30" rows="10" maxlength="255"></textarea>
                 <label for="tos">
                     <input type="checkbox" name="Terms-of-service" id="tos" required> I accept terms and conditions...
-                    <input type="submit" value="Send">
                 </label>
+                <input type="submit" value="Send">
             </form>
         </div>
     </main>
