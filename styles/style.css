@@ -144,7 +144,6 @@
 
 /* Footer */
 #footer__container{
-    height: 8vh;
     justify-content: center;
     align-items: center;
 }
@@ -437,5 +436,7 @@ input[type="text"]{
     }
 }
 @media screen and (min-width: 1024px) {
-    
+    #main-form{
+        gap: 2vh;
+    }
 }
