@@ -298,6 +298,13 @@ textarea{
 input[type="text"]{
     width: 100%;
 }
+.tos_send{
+    justify-content: space-around;
+    align-items: center;
+}
+.tos_send input[type="submit"]{
+    padding: .2vh;
+}
 
 /* animaciones */
 
@@ -428,4 +435,7 @@ input[type="text"]{
     #title__container h2{
         font-size: 2rem;
     }
+}
+@media screen and (min-width: 1024px) {
+    
 }

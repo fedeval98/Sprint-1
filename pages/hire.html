@@ -72,10 +72,12 @@
             </label>
             <label for="date">Message (Location and time)</label>
             <textarea name="information" id="text-area" cols="30" rows="10" maxlength="255"></textarea>
-            <label for="tos">
-                <input type="checkbox" name="Terms-of-service" id="tos" required> I accept terms and conditions...
-            </label>
-            <input type="submit" value="Send">
+            <div class="tos_send __flex">
+                <label for="tos">
+                    <input type="checkbox" name="Terms-of-service" id="tos" required> I accept terms and conditions...
+                </label>
+                <input type="submit" value="Send">
+            </div>
         </form>
     </main>
     <footer id="footer__container" class="__flex __w100">
